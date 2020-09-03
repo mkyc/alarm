@@ -25,3 +25,16 @@ In [alarm directory](./tests/alarm) there is simple test related to testing [PIR
 ## Sim
 
 In [sim directory](./tests/sim) there is test of SIM800L module if it works. I was using [this section of this amazing article](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/#arduino-code-testing-at-commands) and later I also tested second code example to send SMS (not included in repo though). 
+
+# Shematics
+
+## Pins
+
+Usefull resource are pins documentation, so here it goes!
+
+### Arduino Micro
+![Arduino Micro](./ArduinoMicro.png)
+
+### SIM800L
+
+![SIM800L](./SIM800L.png)
