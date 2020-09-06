@@ -11,7 +11,7 @@ First inspiration was apartment with "abandoned" alarm installation I've seen la
  * Since I've never played with MQTT before [this awesome list](https://github.com/hobbyquaker/awesome-mqtt) was pretty useful to have some first glance about available resources. 
  * [This section of article](https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/#wiring-sim800l-gsm-module-to-arduino-uno) was very useful when connecting SIM800L module to Arduino Micro. One worth noticing that for Micro you should change pins due to [Limitations section here](https://www.arduino.cc/en/Reference/softwareSerial).
 * Also [pins description](https://forum.arduino.cc/index.php?topic=525769.0) for SIM800L module was useful. [This one](https://www.electroschematics.com/introducingsim800l/) I used to set logic level voltages. 
-* Since I needed to lower 5V to 3.3V I had to ensure that I do it correctly with [picture from this Quora topic](https://www.quora.com/How-many-pins-on-Arduino-Uno-give-a3-3v-pin-output). 
+* Since I needed to lower 5V to 3.3V I had to ensure that I do it correctly with [picture from this Quora topic](https://www.quora.com/How-many-pins-on-Arduino-Uno-give-a3-3v-pin-output). I also found [this calculator](http://www.learningaboutelectronics.com/Articles/Voltage-divider-calculator.php) useful. 
 
 
 # Tests
@@ -38,3 +38,17 @@ Usefull resource are pins documentation, so here it goes!
 ### SIM800L
 
 ![SIM800L](./SIM800L.png)
+
+# Tests
+
+# Test1
+
+//TODO PIR's connection test picture
+
+## Test2
+
+Following picture shows how I connected Arduino Micro with SIM800L. 
+
+![Setup1](./sim-setup1_bb.png)
+
+Voltage converter is based on LM2596S and converts 5v to 4v due to requirement power SIM800L with 3.4V to 4.4V. 
