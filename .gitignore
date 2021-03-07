@@ -1,2 +1,6 @@
 /.idea/
 /elements/raspberry/SerialReader/out/serialReder
+/elements/raspberry/SocketPublisher/out/socketPublisher
+/elements/raspberry/SocketSubscriber/out/socketSubscriber
+/elements/raspberry/RabbitPublisher/out/rabbitPublisher
+/elements/raspberry/RabbitSubscriber/out/rabbitSubscriber
