@@ -1,0 +1,24 @@
+#cat /lib/systemd/system/sleepservice.service
+[Unit]
+Description=Sleep service
+ConditionPathExists=/opt/sleep/sleepService
+After=network.target
+
+[Service]
+Type=simple
+User=sleepservice
+Group=sleepservice
+LimitNOFILE=1024
+
+Restart=always
+RestartSec=10
+
+WorkingDirectory=/opt/sleep
+ExecStart=/opt/sleep/sleepService --name=foo
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=sleepservice
+
+[Install]
+WantedBy=multi-user.target

@@ -4,3 +4,4 @@
 /elements/raspberry/SocketSubscriber/out/socketSubscriber
 /elements/raspberry/RabbitPublisher/out/rabbitPublisher
 /elements/raspberry/RabbitSubscriber/out/rabbitSubscriber
+/elements/raspberry/SystemDService/out/sleepService
